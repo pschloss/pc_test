@@ -1,6 +1,8 @@
 #include <Rcpp.h>
 using namespace Rcpp;
 
+// Add values in a vector together
+
 // [[Rcpp::export]]
 int addition(const NumericVector& values){
 
